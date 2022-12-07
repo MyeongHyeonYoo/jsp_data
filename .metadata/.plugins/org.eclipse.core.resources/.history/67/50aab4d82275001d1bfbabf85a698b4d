@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>로그인 창</title>
+	
+	<script>
+		function fn_validate() {}
+		let frmLogin = documnet.frmLogin;
+		let user_id = frmLogin.user_id.value;
+		let user_pw = frmLogin.user_pw.value;
+	</script>
+	
+	</head>
+	<body>
+	
+	</body>
+</html>

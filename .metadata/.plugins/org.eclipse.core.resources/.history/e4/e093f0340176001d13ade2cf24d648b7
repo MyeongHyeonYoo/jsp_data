@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>회원 가입 창</title>
+	<script>
+		function fn sendMember() {
+			let frmMember = document.frmMember;
+			let id = frmMember.id.value;
+			let pwd = frmMember.pwd.value;
+			let name = frmMember.name.value;
+			let email = frmMember.email.value.
+		}
+	</script>
+	</head>
+	
+	<body>
+		
+	</body>
+</html>
