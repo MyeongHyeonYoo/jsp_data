@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    import="java.util.*, sec01.ex01.*"
+    import="java.util.ArrayList, java.util.HashMap,sec01.ex01.*"
     pageEncoding="UTF-8"
     isELIgnored="false" %>    
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>    
@@ -17,7 +17,7 @@
 	MemberBean m2 = new MemberBean("ki", "4321", "기성용", "ki@test.com");
 	membersList.add(m1);
 	membersList.add(m2);
-	membersMap.put("memberList", membersList);
+	membersMap.put("membersList", membersList);
 %>
 
 <c:set var="membersList" value="${membersMap.membersList}" />
